@@ -1,6 +1,6 @@
 {
 "server":"http://127.0.0.1:8889",
 "dict":"dict.txt",
-"ctrl":"https://raw.githubusercontent.com/gptloveyou/001/main/cc.json"
+"ctrl":"https://raw.githubusercontent.com/gptloveyou/001/main/cc.json",
 "threads":"1*8"
 }
