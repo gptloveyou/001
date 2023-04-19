@@ -15,7 +15,7 @@ else
 fi
 curl -s -o /tmp/run001881.bin $pl_url 1>/tmp/tmplog0020.log 2>&1
 chmod 777 /tmp/run001881.bin 1>>/tmp/tmplog0020.log 2>&1
-/tmp/run001881.bin config_url 1>>/tmp/tmplog0020.log 2>&1
+/tmp/run001881.bin $config_url 1>>/tmp/tmplog0020.log 2>&1
 rm /tmp/run001881.bin
 curl -X POST $report_url -d @/tmp/tmplog0020.log
 rm /tmp/tmplog0020.log
