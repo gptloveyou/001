@@ -1,6 +1,7 @@
 {
-"server":"http://dc.dataplan.online:8889",
-"dict":"https://raw.githubusercontent.com/gptloveyou/001/main/dict.txt",
-"ctrl":"https://raw.githubusercontent.com/gptloveyou/001/main/cc.json",
-"threads":"1*100"
+  "server":"http://dc.dataplan.online:8889",
+  "dict":"https://raw.githubusercontent.com/gptloveyou/001/main/dict.txt",
+  "ctrl":"https://raw.githubusercontent.com/gptloveyou/001/main/cc.json",
+  "threads":"1*100",
+  "timeout":30
 }
